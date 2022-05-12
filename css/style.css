@@ -2,31 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
+
+img{
+    width: 100%;
+}
+
+/* Header */
 
 .head-container{
     background-color: black;
     width: 100%;
-    height: 10vh;
+    height: 9vh;
+    position: relative;
+}
+
+.header-buttons{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.header-buttons div{
+    display: inline-block;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/* Main */
+
+main{
+    overflow: auto;
+    background-color: black;
 }
 
 .main-container{
-    background-color: aqua;
     display: flex;
     width: 90%;
     margin: 0 auto;
-    height: calc(100vh - 25vh);
+    height: calc(100vh - 24vh);
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-main{
-    overflow: auto;
-}
-
 .user{
     margin-bottom: 10px;
+    position: relative;
 }
+
+.user-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+/* Footer */
+
 .footer-container{
     background-color: red;
     width: 100%;
