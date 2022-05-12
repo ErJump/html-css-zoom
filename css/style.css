@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: sans-serif;
 }
 
 img{
@@ -49,7 +50,7 @@ main{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    height: calc(100vh - 24vh);
+    height: calc(100vh - 19vh);
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -70,7 +71,49 @@ main{
 /* Footer */
 
 .footer-container{
-    background-color: red;
+    background-color: #222222;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
 }
+
+.user-cmd>div{
+    display: inline-block;
+}
+
+.end{
+    color: red;
+    background-color: #4a4a4a;
+    line-height: 10vh;
+    padding: 0 20px
+}
+
+.fix{
+    display: block;
+    font-size: 30px;
+}
+
+.video{
+    margin-left: 20px;
+}
+
+.footer-container div div{
+    text-align: center;
+}
+
+.footer-container div div span{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.angle-up{
+    transform: translateY(-18px);
+}
+
+.angle-up-margin{
+    margin-left: 20px;
+}
+
