@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.head-container{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.main-container{
+    background-color: aqua;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: calc(100vh - 25vh);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main{
+    overflow: auto;
+}
+
+.user{
+    margin-bottom: 10px;
+}
+.footer-container{
+    background-color: red;
+    width: 100%;
+    height: 15vh;
+}
