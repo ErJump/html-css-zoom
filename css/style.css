@@ -65,7 +65,7 @@ main{
     bottom: 5px;
     left: 0;
     padding: 5px;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 /* Footer */
@@ -80,8 +80,16 @@ main{
     font-size: 12px;
 }
 
-.user-cmd>div{
+.user-cmd>div , .room-cmd>div{
     display: inline-block;
+}
+
+.room-cmd>div{
+    margin: 0 8px;
+}
+
+.room-cmd>div:hover , .user-cmd>div:hover{
+    cursor: pointer;
 }
 
 .end{
@@ -91,7 +99,7 @@ main{
     padding: 0 20px
 }
 
-.fix{
+.dimension-fix{
     display: block;
     font-size: 30px;
 }
@@ -109,11 +117,22 @@ main{
     margin-top: 5px;
 }
 
+.mute{
+    margin-left: 20px;
+}
+
+.end:hover{
+    cursor: pointer;
+}
+
 .angle-up{
     transform: translateY(-18px);
 }
 
 .angle-up-margin{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
+.special{
+    color: lightgreen;
+}
