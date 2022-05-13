@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    /* outline: 1px solid red; */
+}
+
+img{
+    width: 100%;
+}
+
+/* Header */
+
+.head-container{
+    background-color: black;
+    width: 100%;
+    height: 9vh;
+    position: relative;
+}
+
+.header-buttons{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.header-buttons div{
+    display: inline-block;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    /* color: white; */
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+/* Main */
+
+main{
+    overflow: auto;
+    background-color: black;
+}
+
+.main-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: calc(100vh - 19vh);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.user-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/* Footer */
+
+.footer-container{
+    background-color: #222222;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.user-cmd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .user-cmd>div */  .room-cmd>div{
+    display: inline-block;
+}
+
+.room-cmd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-cmd>div{
+    padding: 0 10px;
+}
+
+.room-cmd>div:hover , .user-cmd>div:hover{
+    cursor: pointer;
+    background-color: #6e6e6e;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.end{
+    color: red;
+    background-color: #4a4a4a;
+    line-height: 10vh;
+    padding: 0 20px
+}
+
+.dimension-fix{
+    display: block;
+    font-size: 30px;
+}
+
+.video{
+    margin-left: 20px;
+}
+
+.footer-container div div{
+    text-align: center;
+}
+
+.footer-container div div span{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.mute{
+    margin-left: 20px;
+}
+
+.end:hover{
+    cursor: pointer;
+}
+
+.angle-up-margin{
+    margin-left: 5px;
+}
+
+.special{
+    color: lightgreen;
+}
